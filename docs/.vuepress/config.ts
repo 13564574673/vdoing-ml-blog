@@ -1,15 +1,17 @@
 // 示例全部使用 .ts 配置, 详见说明 https://v1.vuepress.vuejs.org/zh/guide/typescript-as-config.html
 
-import { defineConfig4CustomTheme } from "vuepress/config";
+import pkg from "vuepress/config";
 import { VdoingThemeConfig } from "vuepress-theme-vdoing/types";
 import themeConfig from "./config/themeVdoingConfig";
 import markdown from "./config/markdown";
 import plugins from "./config/plugins";
 import head from "./config/head";
 
+const { defineConfig4CustomTheme } = pkg;
+
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
-  title: "vdoing-template", //站点标题, 建议修改
-  description: "vuepress-theme-vdoing-template", //描述, 建议修改
+  title: "Mars blog", //站点标题, 建议修改
+  description: "前端知识笔记", //描述, 建议修改
   dest: "dist", //输出目录, 默认是 dist,无需修改
   // base: "/vdoing-template/", //部署站点的基础路径, 默认是 /, 不懂不要开启
   shouldPrefetch: () => false, //是否开启预加载, 建议不开启, 无需修改
