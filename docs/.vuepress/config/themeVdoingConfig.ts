@@ -46,17 +46,17 @@ export default <VdoingThemeConfig>{
 
   author: {
     // 文章默认的作者信息，可在.md文件front matter中单独配置此信息 String | {name: String, link: String}
-    name: "MonologueChi", // 必需
-    link: "https://blog.xxwhite.com", // 可选的
+    name: "mali", // 必需
+    link: "http://localhost:8080/", // 可选的
   },
 
   // 博主信息，显示在首页侧边栏
-  // blogger: {
-  //   avatar:
-  //     "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg",
-  //   name: "Evan Xu",
-  //   slogan: "前端界的小学生",
-  // },
+  blogger: {
+    avatar:
+      "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg",
+    name: "Mars Ma",
+    slogan: "前端搬砖者",
+  },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
   social: {
@@ -70,7 +70,7 @@ export default <VdoingThemeConfig>{
       {
         iconClass: "icon-bilibili",
         title: "哔哩哔哩",
-        link: "https://space.bilibili.com/28474682",
+        link: "https://www.bilibili.com",
       },
       {
         iconClass: "icon-github",
@@ -80,7 +80,7 @@ export default <VdoingThemeConfig>{
       {
         iconClass: "icon-youjian",
         title: "发邮件",
-        link: "mailto:xxwhite@foxmail.com",
+        link: "mali.enyang@foxmail.com",
       },
     ],
   },

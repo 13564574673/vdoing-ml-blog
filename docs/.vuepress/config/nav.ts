@@ -15,32 +15,32 @@ export default <Array<NavItem>>[
           { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
         ],
       },
-  //     {
-  //       text: '学习笔记',
-  //       items: [
-  //         { text: '《JavaScript教程》', link: '/note/javascript/' },
-  //         { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-  //         { text: '《ES6 教程》', link: '/note/es6/' },
-  //         { text: '《Vue》', link: '/note/vue/' },
-  //         { text: '《React》', link: '/note/react/' },
-  //         {
-  //           text: '《TypeScript 从零实现 axios》',
-  //           link: '/note/typescript-axios/',
-  //         },
-  //         {
-  //           text: '《Git》',
-  //           link: '/note/git/',
-  //         },
-  //         {
-  //           text: 'TypeScript',
-  //           link: '/pages/51afd6/',
-  //         },
-  //         {
-  //           text: 'JS设计模式总结',
-  //           link: '/pages/4643cd/',
-  //         },
-  //       ],
-  //     },
+      {
+        text: '学习笔记',
+        items: [
+          { text: '《JavaScript教程》', link: '/note/javascript/' },
+          { text: '《JavaScript高级程序设计》', link: '/note/js/' },
+          { text: '《ES6 教程》', link: '/note/es6/' },
+          { text: '《Vue》', link: '/note/vue/' },
+          { text: '《React》', link: '/note/react/' },
+          {
+            text: '《TypeScript 从零实现 axios》',
+            link: '/note/typescript-axios/',
+          },
+          {
+            text: '《Git》',
+            link: '/note/git/',
+          },
+          {
+            text: 'TypeScript',
+            link: '/pages/51afd6/',
+          },
+          {
+            text: 'JS设计模式总结',
+            link: '/pages/4643cd/',
+          },
+        ],
+      },
     ],
   },
   {
@@ -57,6 +57,10 @@ export default <Array<NavItem>>[
       {
         text:"参考博客",
         link:"https://xugaoyi.com/",
+      },
+      {
+        text:"面试宝典",
+        link:"https://fe.ecool.fun/",
       },
       {
         text: "vuepress",
